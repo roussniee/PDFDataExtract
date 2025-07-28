@@ -33,6 +33,7 @@ This project involved evaluating multiple methods to extract key values from PDF
 - Created a framework that could be reused for future OCR/AI analysis
 
 <h2>Program walk-through/Visual aids:</h2>
+<i><b>Still building...</b></i>
 <!--
 <p align="center">
 Launch the utility: <br/>
