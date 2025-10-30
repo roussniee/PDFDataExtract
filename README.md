@@ -1,11 +1,11 @@
 <h1>PDF Data Extract Comparison</h1>
 
 <!--
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
+ ### [YouTube Demonstration](link)
  -->
 
 <h2>Description</h2>
-This project involved evaluating multiple methods to extract key values from PDFs with highly inconsistent formatting. I compared Microsoft Power Automate’s AI Builder against a custom Python script to determine which approach produced more reliable results for downstream automation.
+This project involved evaluating multiple methods to extract key values from PDFs with highly inconsistent formatting. I compared Microsoft Power Automate’s AI Builder against a custom Python script to determine which approach produced more reliable results for downstream automation. 
 <br />
 
 <h2>Languages and Utilities Used</h2>
@@ -29,41 +29,25 @@ This project involved evaluating multiple methods to extract key values from PDF
 <h2>✅ Outcome</h2>
 
 - Identified the most efficient tool for extracting structured fields
+    -   The custom script was more accurate and loaded quicker, but the AI builder integrated into platforms like Power Automate much more easily. 
 - Enabled smoother data flows from PDFs into reports and financial systems
 - Created a framework that could be reused for future OCR/AI analysis
 
 <h2>Program walk-through/Visual aids:</h2>
-<i><b>Still building...</b></i>
-<!--
-<p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<i><b>Sensitive information omitted</b></i>
+<p align="left">
+Project Plan Examples: <br/>
+<img src="https://imgur.com/ZYFHwSh.png" height="60%" width="60%" alt="Project Plan"/>
+<img src="https://imgur.com/5PM7bAP.png" height="60%" width="60%" alt="Project Plan"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Power Automate Snippet:  <br/>
+<img src="https://imgur.com/4xumW0j.png" height="60%" width="60%" alt="Flow"/>
+<img src="https://imgur.com/BoaUMZG.png" height="60%" width="60%" alt="Flow"/>
+<img src="https://imgur.com/nG4rSNy.png" height="60%" width="60%" alt="Flow"/>
 <br />
-<br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
---!>
+
 
 <h3>Confidentiality Note</h3>
-<i>All PDF examples are dummy data or modified samples without real invoice or vendor details.</i>
+<i>All examples are dummy data or modified samples without real invoice or vendor details.</i>
