@@ -1,0 +1,18 @@
+int(div(length(variables('Ins Amount Array')), int(length(variables('Grand Total Revenue')))))
+
+float(div(float(variables('Ins Amount Array')?[variables('Number')]), variables('Grand Total Revenue')?[variables('Temp')]))
+
+variables('Revenue per CC')?[int(div(variables('Temp'), length(variables('Revenue per CC'))))]
+
+mul(length(variables('Ins Amount Array')), length(variables('Cost Center Array')))
+
+if(equals(mod(, 2), 1), 'odd', 'even')
+
+if(contains(outputs('Format_installment_date')?[variables('Number')], 'Enter'), ' ', trim(outputs('Format_installment_date')?[variables('Number')]))
+
+if(less(variables('Temp'), 6), variables('Ins Date Array')?[variables('Number')], variables('Ins Date Array')?[add(variables('Number'), 6)])
+
+formatNumber(1, '0,0.00', 'en-us')
+
+if(equals(items('Apply_to_each_more_testing')?['VCA/value'], null), 0, formatNumber(iitems('Apply_to_each_more_testing')?['VCA/value'], '0,0.00', 'en-US'))
+if(equals(items('Apply_to_each')?['Start_/value'], null), '', formatDateTime(parseDateTime(items('Apply_to_each')?['Start_/value']), 'dd-MMM-yyyy', 'en-US'))
